@@ -19,7 +19,7 @@ const users = [
     }
 ]
 
-const refreshTokens = [];
+let refreshTokens = [];
 
 app.use(bodyParser.json());
 
